@@ -9,7 +9,8 @@ from constants import *
 import stripe # type: ignore
 
 # Stripe API Key - KALACAK
-stripe.api_key = 'your-secret-key'
+stripe.api_key = 'sk_test_51ROFGB01KCzUb8NX92iLWF6E5n4lpDX7X6elev7crJnbdmn6rZX1ffvfocCPOh78fH5aaYUWQd6wAhzzeKzK3mwo00Ruy4pxpR'
+
 # Stripe Checkout - KALACAK
 def create_checkout_session(amount):
     try:
