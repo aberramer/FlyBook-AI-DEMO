@@ -16,3 +16,4 @@ pandas
 numpy
 ollama
 langchain-chroma
+stripe
